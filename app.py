@@ -23,7 +23,7 @@ from PIL import Image
 #app=Flask(__name__)
 #Swagger(app)
 
-pickle_in = open("/home/mrinal/airflow/output_pickle/finalized_model.pkl","rb")
+pickle_in = open("/home/mrinal/airflow/output_pickle/classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
 
 #@app.route('/')
